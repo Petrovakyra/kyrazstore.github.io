@@ -1,84 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyra Store</title>
+
+    <!-- LIGA O CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav>
-    <h1>KYRA<span>STORE</span></h1>
-    <a href="https://discord.gg/xApC34kPYT" target="_blank">Discord</a>
-</nav>
+<header class="topbar">
+    <div class="container nav">
 
-<!-- BANNER -->
-<section class="banner">
-
-    <div class="banner-text">
-        <h2>SEU JOGO STEAM</h2>
-        <h3>EM UM CLIQUE</h3>
-
-        <p>Keys Steam • Contas Compartilhadas</p>
-
-        <a href="https://discord.gg/xApC34kPYT" target="_blank">
-            Comprar no Discord
+        <a class="brand" href="#">
+            KYRA<span>STORE</span>
         </a>
+
+        <div class="nav-links">
+            <a href="#">Produtos</a>
+            <a href="#">Discord</a>
+        </div>
+
+    </div>
+</header>
+
+<section class="hero container">
+
+    <div class="hero__content">
+
+        <span class="pill">🔥 Loja Gamer</span>
+
+        <h1>
+            Sua loja <span>Steam</span>
+        </h1>
+
+        <p class="hero__subtitle">
+            Keys, contas e gift cards com segurança.
+        </p>
+
+        <a class="btn" href="#">Comprar</a>
+        <a class="btn btn--ghost" href="#">Catálogo</a>
+
     </div>
 
 </section>
 
-<!-- BENEFÍCIOS -->
-<section class="beneficios">
+<section class="benefits">
 
-    <div class="beneficio">
-        ⚡ Entrega Rápida
-    </div>
+    <div class="container benefits__grid">
 
-    <div class="beneficio">
-        🔒 100% Seguro
-    </div>
+        <div class="benefit-card">⚡ Entrega rápida</div>
+        <div class="benefit-card">🔒 Seguro</div>
+        <div class="benefit-card">💎 Suporte VIP</div>
 
-    <div class="beneficio">
-        💎 Suporte VIP
     </div>
 
 </section>
 
-<!-- PRODUTOS -->
-<section class="produtos">
+<section class="products container">
 
-    <h2>Produtos</h2>
+    <div class="section-header">
+        <h2>Produtos</h2>
+    </div>
 
-    <div class="grid">
+    <div class="products__grid">
 
-        <div class="card">
-            <img src="https://i.imgur.com/iqzDmkv.png">
+        <div class="product-card">
+            <img src="https://i.imgur.com/VnYq4FZ.png" class="product-media">
             <h3>Key Steam</h3>
-            <a href="https://discord.gg/xApC34kPYT" target="_blank">
-                Comprar
-            </a>
+            <p>Ativação rápida</p>
+            <a class="btn">Comprar</a>
         </div>
 
-        <div class="card">
-            <img src="https://i.imgur.com/SlNA4nl.png">
-            <h3>Conta Compartilhada</h3>
-            <a href="https://discord.gg/xApC34kPYT" target="_blank">
-                Comprar
-            </a>
+        <div class="product-card">
+            <img src="https://i.imgur.com/VnYq4FZ.png" class="product-media">
+            <h3>Conta</h3>
+            <p>Acesso compartilhado</p>
+            <a class="btn">Comprar</a>
         </div>
-
 
     </div>
 
 </section>
 
-<!-- FOOTER -->
-<footer>
-    © 2026 - Kyra Store • Atendimento via Discord
+<footer class="footer">
+
+    <div class="container footer__content">
+
+        <p>© 2026 Kyra Store</p>
+        <a href="#">Discord</a>
+
+    </div>
+
 </footer>
 
 </body>
-</html
+</html>
